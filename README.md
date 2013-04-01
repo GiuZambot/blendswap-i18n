@@ -7,7 +7,7 @@ We need help with
 * Portuguese
 * More languages? mainly left-to-right written langs.
 
-We're covered in __Spanish__, __German__, __Polish__, __French__, __Serbian__, __Greek__.
+We're covered in __Spanish__, __German__, __Polish__, __French__, __Serbian__, __Greek__, __Portuguese__.
 
 ## Set up
 
@@ -36,7 +36,7 @@ We're covered in __Spanish__, __German__, __Polish__, __French__, __Serbian__, _
 * Save the file to the folder you created before as `default.po` (watch out for the extension, POT files are templates, PO files are translations files).
 * Work on your translations and save frequently. __You can use any UTF-8 compliant alphabet; UTF-8 includes [practically all character sets known to mankind](http://en.wikipedia.org/wiki/List_of_Unicode_Characters).__
 * When you're done do your normal `git add .` , `git commit -m "Commit message"` and `git push` to update your fork.
-* When you feel your translation is ready, do a pull request on github from your fork to the master fork (poifox/blendswap-i18n) so we know your fork is ready for merging to the master fork.
+* When you feel your translation is ready, First check if your fork has a pull request from the main fork and merge it first. Next, check if the main is ahead of your fork, if so open a pull rquest from the main to your fork and merge it, THEN you can do a pull request from your fork to the main fork (poifox/blendswap-i18n) so we know you're ready for merge.
 * __Do not use other software than poedit to edit the po files as it is very easy to break them, use PoEdit every time.__
 * All this applies for `model_validation.po`, which should be put into `lang/LC_MESSAGES/model_validation.po`
 
